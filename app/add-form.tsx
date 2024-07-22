@@ -20,7 +20,6 @@ function SubmitButton() {
 
 export function AddForm() {
   const [state, formAction] = useActionState(createTodo, initialState);
-
   return (
     <form action={formAction}>
       <label htmlFor="todo">Enter Task</label>
